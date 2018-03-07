@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7A126E204D25BE0043699D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A126D204D25BE0043699D /* AppDelegate.m */; };
+		2F7A1271204D25BE0043699D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A1270204D25BE0043699D /* ViewController.m */; };
+		2F7A1274204D25BE0043699D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7A1272204D25BE0043699D /* Main.storyboard */; };
+		2F7A1276204D25BE0043699D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7A1275204D25BE0043699D /* Assets.xcassets */; };
+		2F7A1279204D25BE0043699D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7A1277204D25BE0043699D /* LaunchScreen.storyboard */; };
+		2F7A127C204D25BE0043699D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A127B204D25BE0043699D /* main.m */; };
+		2F7A1286204D25BE0043699D /* iOS____Method_SwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A1285204D25BE0043699D /* iOS____Method_SwizzlingTests.m */; };
+		2F7A1291204D25BE0043699D /* iOS____Method_SwizzlingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A1290204D25BE0043699D /* iOS____Method_SwizzlingUITests.m */; };
+		2F7A12A0204D26FE0043699D /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A129F204D26FE0043699D /* UIViewController+Swizzling.m */; };
+		2F7A12A3204D2EB00043699D /* NSArray+LXZArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7A12A2204D2EB00043699D /* NSArray+LXZArray.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F7A1282204D25BE0043699D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F7A1261204D25BE0043699D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7A1268204D25BE0043699D;
+			remoteInfo = "iOS 黑魔法Method Swizzling";
+		};
+		2F7A128D204D25BE0043699D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F7A1261204D25BE0043699D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7A1268204D25BE0043699D;
+			remoteInfo = "iOS 黑魔法Method Swizzling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F7A1269204D25BE0043699D /* iOS 黑魔法Method Swizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 黑魔法Method Swizzling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7A126C204D25BE0043699D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F7A126D204D25BE0043699D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F7A126F204D25BE0043699D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F7A1270204D25BE0043699D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F7A1273204D25BE0043699D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F7A1275204D25BE0043699D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F7A1278204D25BE0043699D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F7A127A204D25BE0043699D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7A127B204D25BE0043699D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F7A1281204D25BE0043699D /* iOS 黑魔法Method SwizzlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 黑魔法Method SwizzlingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7A1285204D25BE0043699D /* iOS____Method_SwizzlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____Method_SwizzlingTests.m"; sourceTree = "<group>"; };
+		2F7A1287204D25BE0043699D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7A128C204D25BE0043699D /* iOS 黑魔法Method SwizzlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 黑魔法Method SwizzlingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7A1290204D25BE0043699D /* iOS____Method_SwizzlingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____Method_SwizzlingUITests.m"; sourceTree = "<group>"; };
+		2F7A1292204D25BE0043699D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7A129E204D26FE0043699D /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		2F7A129F204D26FE0043699D /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		2F7A12A1204D2EB00043699D /* NSArray+LXZArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+LXZArray.h"; sourceTree = "<group>"; };
+		2F7A12A2204D2EB00043699D /* NSArray+LXZArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LXZArray.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F7A1266204D25BE0043699D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7A127E204D25BE0043699D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7A1289204D25BE0043699D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7A1260204D25BE0043699D = {
+			isa = PBXGroup;
+			children = (
+				2F7A126B204D25BE0043699D /* iOS 黑魔法Method Swizzling */,
+				2F7A1284204D25BE0043699D /* iOS 黑魔法Method SwizzlingTests */,
+				2F7A128F204D25BE0043699D /* iOS 黑魔法Method SwizzlingUITests */,
+				2F7A126A204D25BE0043699D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F7A126A204D25BE0043699D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A1269204D25BE0043699D /* iOS 黑魔法Method Swizzling.app */,
+				2F7A1281204D25BE0043699D /* iOS 黑魔法Method SwizzlingTests.xctest */,
+				2F7A128C204D25BE0043699D /* iOS 黑魔法Method SwizzlingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F7A126B204D25BE0043699D /* iOS 黑魔法Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A126C204D25BE0043699D /* AppDelegate.h */,
+				2F7A126D204D25BE0043699D /* AppDelegate.m */,
+				2F7A126F204D25BE0043699D /* ViewController.h */,
+				2F7A1270204D25BE0043699D /* ViewController.m */,
+				2F7A1272204D25BE0043699D /* Main.storyboard */,
+				2F7A1275204D25BE0043699D /* Assets.xcassets */,
+				2F7A1277204D25BE0043699D /* LaunchScreen.storyboard */,
+				2F7A127A204D25BE0043699D /* Info.plist */,
+				2F7A127B204D25BE0043699D /* main.m */,
+				2F7A129E204D26FE0043699D /* UIViewController+Swizzling.h */,
+				2F7A129F204D26FE0043699D /* UIViewController+Swizzling.m */,
+				2F7A12A1204D2EB00043699D /* NSArray+LXZArray.h */,
+				2F7A12A2204D2EB00043699D /* NSArray+LXZArray.m */,
+			);
+			path = "iOS 黑魔法Method Swizzling";
+			sourceTree = "<group>";
+		};
+		2F7A1284204D25BE0043699D /* iOS 黑魔法Method SwizzlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A1285204D25BE0043699D /* iOS____Method_SwizzlingTests.m */,
+				2F7A1287204D25BE0043699D /* Info.plist */,
+			);
+			path = "iOS 黑魔法Method SwizzlingTests";
+			sourceTree = "<group>";
+		};
+		2F7A128F204D25BE0043699D /* iOS 黑魔法Method SwizzlingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7A1290204D25BE0043699D /* iOS____Method_SwizzlingUITests.m */,
+				2F7A1292204D25BE0043699D /* Info.plist */,
+			);
+			path = "iOS 黑魔法Method SwizzlingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F7A1268204D25BE0043699D /* iOS 黑魔法Method Swizzling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7A1295204D25BF0043699D /* Build configuration list for PBXNativeTarget "iOS 黑魔法Method Swizzling" */;
+			buildPhases = (
+				2F7A1265204D25BE0043699D /* Sources */,
+				2F7A1266204D25BE0043699D /* Frameworks */,
+				2F7A1267204D25BE0043699D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS 黑魔法Method Swizzling";
+			productName = "iOS 黑魔法Method Swizzling";
+			productReference = 2F7A1269204D25BE0043699D /* iOS 黑魔法Method Swizzling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F7A1280204D25BE0043699D /* iOS 黑魔法Method SwizzlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7A1298204D25BF0043699D /* Build configuration list for PBXNativeTarget "iOS 黑魔法Method SwizzlingTests" */;
+			buildPhases = (
+				2F7A127D204D25BE0043699D /* Sources */,
+				2F7A127E204D25BE0043699D /* Frameworks */,
+				2F7A127F204D25BE0043699D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F7A1283204D25BE0043699D /* PBXTargetDependency */,
+			);
+			name = "iOS 黑魔法Method SwizzlingTests";
+			productName = "iOS 黑魔法Method SwizzlingTests";
+			productReference = 2F7A1281204D25BE0043699D /* iOS 黑魔法Method SwizzlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F7A128B204D25BE0043699D /* iOS 黑魔法Method SwizzlingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7A129B204D25BF0043699D /* Build configuration list for PBXNativeTarget "iOS 黑魔法Method SwizzlingUITests" */;
+			buildPhases = (
+				2F7A1288204D25BE0043699D /* Sources */,
+				2F7A1289204D25BE0043699D /* Frameworks */,
+				2F7A128A204D25BE0043699D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F7A128E204D25BE0043699D /* PBXTargetDependency */,
+			);
+			name = "iOS 黑魔法Method SwizzlingUITests";
+			productName = "iOS 黑魔法Method SwizzlingUITests";
+			productReference = 2F7A128C204D25BE0043699D /* iOS 黑魔法Method SwizzlingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F7A1261204D25BE0043699D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "赵小波";
+				TargetAttributes = {
+					2F7A1268204D25BE0043699D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2F7A1280204D25BE0043699D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F7A1268204D25BE0043699D;
+					};
+					2F7A128B204D25BE0043699D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F7A1268204D25BE0043699D;
+					};
+				};
+			};
+			buildConfigurationList = 2F7A1264204D25BE0043699D /* Build configuration list for PBXProject "iOS 黑魔法Method Swizzling" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F7A1260204D25BE0043699D;
+			productRefGroup = 2F7A126A204D25BE0043699D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F7A1268204D25BE0043699D /* iOS 黑魔法Method Swizzling */,
+				2F7A1280204D25BE0043699D /* iOS 黑魔法Method SwizzlingTests */,
+				2F7A128B204D25BE0043699D /* iOS 黑魔法Method SwizzlingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F7A1267204D25BE0043699D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7A1279204D25BE0043699D /* LaunchScreen.storyboard in Resources */,
+				2F7A1276204D25BE0043699D /* Assets.xcassets in Resources */,
+				2F7A1274204D25BE0043699D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7A127F204D25BE0043699D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7A128A204D25BE0043699D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F7A1265204D25BE0043699D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7A12A3204D2EB00043699D /* NSArray+LXZArray.m in Sources */,
+				2F7A12A0204D26FE0043699D /* UIViewController+Swizzling.m in Sources */,
+				2F7A1271204D25BE0043699D /* ViewController.m in Sources */,
+				2F7A127C204D25BE0043699D /* main.m in Sources */,
+				2F7A126E204D25BE0043699D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7A127D204D25BE0043699D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7A1286204D25BE0043699D /* iOS____Method_SwizzlingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7A1288204D25BE0043699D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7A1291204D25BE0043699D /* iOS____Method_SwizzlingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F7A1283204D25BE0043699D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F7A1268204D25BE0043699D /* iOS 黑魔法Method Swizzling */;
+			targetProxy = 2F7A1282204D25BE0043699D /* PBXContainerItemProxy */;
+		};
+		2F7A128E204D25BE0043699D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F7A1268204D25BE0043699D /* iOS 黑魔法Method Swizzling */;
+			targetProxy = 2F7A128D204D25BE0043699D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F7A1272204D25BE0043699D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7A1273204D25BE0043699D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F7A1277204D25BE0043699D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7A1278204D25BE0043699D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F7A1293204D25BE0043699D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F7A1294204D25BE0043699D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F7A1296204D25BF0043699D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ3L95ZDNP;
+				INFOPLIST_FILE = "iOS 黑魔法Method Swizzling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaobo.com.iOS----Method-Swizzling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F7A1297204D25BF0043699D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ3L95ZDNP;
+				INFOPLIST_FILE = "iOS 黑魔法Method Swizzling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaobo.com.iOS----Method-Swizzling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F7A1299204D25BF0043699D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ3L95ZDNP;
+				INFOPLIST_FILE = "iOS 黑魔法Method SwizzlingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaobo.com.iOS----Method-SwizzlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 黑魔法Method Swizzling.app/iOS 黑魔法Method Swizzling";
+			};
+			name = Debug;
+		};
+		2F7A129A204D25BF0043699D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ3L95ZDNP;
+				INFOPLIST_FILE = "iOS 黑魔法Method SwizzlingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaobo.com.iOS----Method-SwizzlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 黑魔法Method Swizzling.app/iOS 黑魔法Method Swizzling";
+			};
+			name = Release;
+		};
+		2F7A129C204D25BF0043699D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ3L95ZDNP;
+				INFOPLIST_FILE = "iOS 黑魔法Method SwizzlingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaobo.com.iOS----Method-SwizzlingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS 黑魔法Method Swizzling";
+			};
+			name = Debug;
+		};
+		2F7A129D204D25BF0043699D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQ3L95ZDNP;
+				INFOPLIST_FILE = "iOS 黑魔法Method SwizzlingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaobo.com.iOS----Method-SwizzlingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS 黑魔法Method Swizzling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F7A1264204D25BE0043699D /* Build configuration list for PBXProject "iOS 黑魔法Method Swizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7A1293204D25BE0043699D /* Debug */,
+				2F7A1294204D25BE0043699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7A1295204D25BF0043699D /* Build configuration list for PBXNativeTarget "iOS 黑魔法Method Swizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7A1296204D25BF0043699D /* Debug */,
+				2F7A1297204D25BF0043699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7A1298204D25BF0043699D /* Build configuration list for PBXNativeTarget "iOS 黑魔法Method SwizzlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7A1299204D25BF0043699D /* Debug */,
+				2F7A129A204D25BF0043699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F7A129B204D25BF0043699D /* Build configuration list for PBXNativeTarget "iOS 黑魔法Method SwizzlingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F7A129C204D25BF0043699D /* Debug */,
+				2F7A129D204D25BF0043699D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F7A1261204D25BE0043699D /* Project object */;
+}
